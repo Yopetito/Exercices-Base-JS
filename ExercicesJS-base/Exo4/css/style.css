@@ -23,6 +23,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     transition: all 1s;
 }
 
@@ -37,4 +38,15 @@ body {
     transform: scale(1.1);
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgb(63, 63, 63);
+}
+
+.nameFb, .nameTwitter, .nameIg {
+    display: flex;
+    text-align: center;
+    z-index: 999;
+    position: absolute;
+    bottom: 0px;
+    font-size: 25px;
+    font-style: italic;
+    z-index: -1;
 }
