@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.carrees {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 10px;
+}
+
+.carre {
+    background-color: rgb(85, 133, 95);
+    color: rgb(0, 0, 0);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-family: 'Times New Roman';
+    transition: all 1s;
+}
+
+.carre.transforme {
+    background-color: #d45a5a;
+    transform: rotate(360deg) scale(0.8);
+}
