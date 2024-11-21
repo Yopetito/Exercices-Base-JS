@@ -1,4 +1,4 @@
-const carres = document.querySelectorAll(".carrees .carre"); 
+const carres = document.querySelectorAll(".carre"); 
 
 carres.forEach(function (carre) { //parcours les div
     carre.addEventListener('click', function () { // si un click dans chaque div parcouru

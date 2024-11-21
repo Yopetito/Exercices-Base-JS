@@ -10,7 +10,7 @@
     margin: 10px;
 }
 
-.carre1 {
+.carre.n1 {
     background-color: rgb(245, 229, 1);
     color: rgb(0, 0, 0);
     height: 200px;
@@ -21,7 +21,7 @@
     font-family: 'Times New Roman';
 }
 
-.carre2 {
+.carre.n2 {
     background-color: rgb(14, 168, 168);
     color: rgb(0, 0, 0);
     height: 200px;
@@ -32,7 +32,7 @@
     font-family: 'Times New Roman';
 }
 
-.carre3 {
+.carre.n3 {
     background-color: rgb(189, 14, 14);
     color: rgb(0, 0, 0);
     height: 200px;
@@ -43,7 +43,7 @@
     font-family: 'Times New Roman';
 }
 
-.carre4 {
+.carre.n4 {
     background-color: rgb(228, 23, 211);
     color: rgb(0, 0, 0);
     height: 200px;
